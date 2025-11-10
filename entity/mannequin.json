@@ -1,0 +1,36 @@
+{
+	"format_version": "1.10.0",
+	"minecraft:client_entity": {
+		"description": {
+			"identifier": "darkoak:mannequin",
+			"materials": {
+				"default": "villager_v2"
+			},
+			"geometry": {
+				"default": "geometry.npc.steve"
+			},
+			"render_controllers": ["controller.render.mannequin"],
+			"textures": {
+				"default": "textures/entity/mannequin"
+			},
+			"scripts": {
+				"scale": "0.9375",
+				"pre_animation": [
+					"v.tcos0 = (math.cos(q.modified_distance_moved * 38.17) * q.modified_move_speed / v.gliding_speed_value) * 57.3;"
+				],
+				"animate": [
+					"move.arms",
+					"move.legs",
+					"look_at_target_default",
+					"bob"
+				]
+			},
+			"animations": {
+				"look_at_target_default": "animation.humanoid.look_at_target.default",
+				"move.arms": "animation.player.move.arms",
+				"move.legs": "animation.player.move.legs",
+				"bob": "animation.player.bob"
+			}
+		}
+	}
+}

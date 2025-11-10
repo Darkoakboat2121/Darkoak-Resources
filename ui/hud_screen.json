@@ -1,0 +1,55 @@
+{
+    "namespace": "hud",
+    "hud_title_text": {
+        "alpha": 1,
+        "size": [
+            "100%",
+            "100%"
+        ],
+        "controls": [
+            {
+                "sidebar": {
+                    "type": "panel",
+                    "controls": [
+                        {
+                            "title_text": {
+                                "type": "image",
+                                "offset": [
+                                    0,
+                                    0
+                                ],
+                                "anchor_from": "right_middle",
+                                "anchor_to": "right_middle",
+                                "size": [
+                                    "110px",
+                                    "165px"
+                                ],
+                                "texture": "textures/ui/sidebar3",
+                                "controls": [
+                                    {
+                                        "text": {
+                                            "type": "label",
+                                            "text_alignment": "center",
+                                            "text": "$title_text",
+                                            "font_scale_factor": 1,
+                                            "layer": 1
+                                        }
+                                    }
+                                ]
+                            }
+                        }
+                    ],
+                    "visible": "$title_text"
+                }
+            }
+        ]
+    },
+    "anim_alpha_out": {
+    "anim_type": "alpha",
+    "easing": "in_expo",
+    "duration": 3,
+    "from": 1.0,
+    "to": 0,
+    "destroy_at_end": "hud_title_text"
+  }
+}

@@ -1,0 +1,27 @@
+{
+    "resource_pack_name": "Darkoak Essentials",
+    "texture_name": "atlas.items",
+    "texture_data": {
+        "b1": {
+            "textures": "textures/items/band1"
+        },
+        "b2": {
+            "textures": "textures/items/clock"
+        },
+        "b3": {
+            "textures": "textures/items/crystalclump1"
+        },
+        "b4": {
+            "textures": "textures/items/crystalclump2"
+        },
+        "b5": {
+            "textures": "textures/items/headphones1"
+        },
+        "b6": {
+            "textures": "textures/items/moniter"
+        },
+        "b7": {
+            "textures": "textures/items/sword1"
+        }
+    }
+}

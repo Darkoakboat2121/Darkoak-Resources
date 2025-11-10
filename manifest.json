@@ -1,0 +1,22 @@
+{
+    "format_version": 2,
+    "header": {
+        "name": "Darkoak Resources V2.4.6",
+        "uuid": "5c9d1330-a02d-4d9b-97c7-216a604b047c",
+        "description": "Made by Darkoakboat2121",
+        "version": [2, 4, 6],
+        "min_engine_version": [
+            1,
+            21,
+            80
+        ]
+    },
+    "modules": [
+        {
+            "type": "resources",
+            "description": "Resources",
+            "uuid": "7f9b2097-4078-4a23-886f-13a5eb42ea16",
+            "version": [1, 0, 0]
+        }
+    ]
+}
