@@ -1,0 +1,9 @@
+{
+    "resource_pack_name": "Darkoak Resources",
+    "texture_name": "atlas.terrain",
+    "texture_data": {
+        "crate1": {
+            "textures": "textures/blocks/crate1"
+        }
+    }
+}

@@ -1,0 +1,6 @@
+{
+    "format_version": [1, 0, 0],
+    "darkoak:crate1": {
+        "textures": "crate1"
+    }
+}

@@ -199,7 +199,14 @@
           "text_tts": "#text_tts",
           "font_type": "$chat_font_type",
           "font_scale_factor": "$chat_font_scale_factor",
-          "line_padding": "$chat_line_spacing"
+          "line_padding": "$chat_line_spacing",
+          "bindings": [
+            {
+              "binding_type": "view",
+              "source_property_name": "((#text - '*' = #text) or (#text - 'is sleeping in a bed. To Skip to dawn,' = #text))",
+              "target_property_name": "#visible"
+            }
+          ]
         }
       }
     ],
@@ -223,7 +230,7 @@
     "$scrolling_content_anchor_to": "bottom_left",
     "factory": {
       "name": "messages_factory",
-      "max_children_size": 100,
+      "max_children_size": 1000,
       "control_ids": {
         "chat_screen_messages": "chat_screen_messages@chat.message_tts_wrapper"
       }
@@ -877,7 +884,8 @@
       { "chat_top_panel@chat.chat_header": { "layer": 2 } },
       { "autocomplete_commands_panel@chat.commands_panel": { "layer": 3 } },
       { "host_main_panel@host_options.host_panel": { "layer": 4 } },
-      { "popup_factory@chat_settings.popup_factory": {} }
+      { "popup_factory@chat_settings.popup_factory": {} },
+      { "darkoak_quick_chat_ac_panel@darkoak_quick_chat.darkoak_quick_chat_ac_panel": {} }
     ]
   },
 
