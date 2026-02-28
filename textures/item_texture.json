@@ -22,6 +22,9 @@
         },
         "b7": {
             "textures": "textures/items/sword1"
+        },
+        "b8": {
+            "textures": "textures/items/rickroll"
         }
     }
 }

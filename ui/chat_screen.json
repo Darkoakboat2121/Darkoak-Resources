@@ -214,6 +214,11 @@
       {
         "binding_name": "#chat_visible",
         "binding_name_override": "#visible"
+      },
+      {
+        "binding_type": "view",
+        "source_property_name": "((#text - '*' = #text) or (#text - 'is sleeping in a bed. To Skip to dawn,' = #text))",
+        "target_property_name": "#visible"
       }
     ]
   },

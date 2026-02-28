@@ -1,10 +1,10 @@
 {
     "format_version": 2,
     "header": {
-        "name": "Darkoak Resources V2.6.2",
+        "name": "Darkoak Resources V2.7.6",
         "uuid": "5c9d1330-a02d-4d9b-97c7-216a604b047c",
         "description": "Made by Darkoakboat2121 &",
-        "version": [2, 6, 2],
+        "version": [2, 7, 6],
         "min_engine_version": [
             1,
             21,
