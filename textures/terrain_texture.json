@@ -4,6 +4,24 @@
     "texture_data": {
         "crate1": {
             "textures": "textures/blocks/crate1"
+        },
+        "interact_no_movement": {
+            "textures": "textures/blocks/emptyC"
+        },
+        "upwards_wall": {
+            "textures": "textures/blocks/border"
+        },
+        "passover1": {
+            "textures": "textures/blocks/passover1"
+        },
+        "passover2": {
+            "textures": "textures/blocks/passover2"
+        },
+        "hardlight_generator": {
+            "textures": "textures/blocks/hardlight_generator"
+        },
+        "hardlight": {
+            "textures": "textures/blocks/hardlight"
         }
     }
 }

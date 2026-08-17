@@ -3759,16 +3759,16 @@
       {
         "vignette_rend@vignette_renderer": {}
       },
-      {
-        "curor_rend@cursor_renderer": {
-          "bindings": [
-            {
-              "binding_name": "#show_cursor",
-              "binding_name_override": "#visible"
-            }
-          ]
-        }
-      },
+      // {
+      //   "curor_rend@cursor_renderer": {
+      //     "bindings": [
+      //       {
+      //         "binding_name": "#show_cursor",
+      //         "binding_name_override": "#visible"
+      //       }
+      //     ]
+      //   }
+      // },
       {
         "game_tip@game_tip.game_tip_factory": {}
       },

@@ -2,5 +2,24 @@
     "format_version": [1, 0, 0],
     "darkoak:crate1": {
         "textures": "crate1"
+    },
+    // "darkoak:interact_no_movement": {
+    //     "textures": "interact_no_movement"
+    // },
+    "darkoak:upwards_wall": {
+        "textures": "upwards_wall"
+    },
+    "darkoak:passover1": {
+        "textures": "passover1"
+    },
+    "darkoak:passover2": {
+        "textures": "passover2"
+    },
+    "darkoak:hardlight_generator": {
+        "textures": "hardlight_generator"
+    },
+    "darkoak:hardlight": {
+        "textures": "hardlight",
+        "brightness_gamma": 1
     }
 }

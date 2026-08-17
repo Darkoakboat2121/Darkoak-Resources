@@ -1,0 +1,9 @@
+{
+    "namespace": "custom_html_bridge",
+    "html_screen@common.base_screen": {
+        "type": "screen",
+        "html_path": "ui/index.html",
+        "is_modal": "true",
+        "force_render_below": "true"
+    }
+}
